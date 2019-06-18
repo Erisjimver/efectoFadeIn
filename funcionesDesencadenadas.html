@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Funciones desencadenadas</title>
+</head>
+
+<style>
+	
+	#anuncio{
+		background-color: #000;
+		color: #FFF;
+		font-size: 24px;
+	}
+
+</style>
+
+	<script type="text/javascript" src="jquery-1.6.3.min.js"></script>
+
+	<script>
+		
+		$(document).ready(function(){
+			$("#anuncio").width(500).height(500).text("¡VENDE!").hide().fadeIn(10000);
+		});
+
+	</script>
+
+<body>
+
+	<div id="anuncio">
+		
+		¡COMPRA!
+
+	</div>
+
+<!--<script>
+	
+	var anuncio=document.getElementById("anuncio");
+
+	anuncio.style.width="500px";
+	anuncio.style.height="500px";
+	anuncio.innerHTML="¡VENDE!";
+
+</script>
+-->
+</body>
+</html>
